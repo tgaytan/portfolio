@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-To see the projects I have deployed, navigate to the following URL to view my portfolio:
+To see the projects I have deployed, navigate to the following URL to view my portfolio: https://tgaytan.github.io/portfolio/
 
 Once you are on the page, navigate to the "Work" section and select the image in order to be redircted to the deployed project.
 
