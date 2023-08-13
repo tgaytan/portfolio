@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-    font-family: fantasy;
+    font-family: fantasy, sans-serif;
     font-size: 200%;
     background-color: white;
     border: 5px solid maroon;
