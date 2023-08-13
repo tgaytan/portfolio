@@ -51,10 +51,16 @@ section h2 {
     color: white;
 }
 
-section .center-content {
+.center-content {
     width: 75%;
     margin-left: 20px;
     color: white;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-me ul {
@@ -63,3 +69,20 @@ section .center-content {
     align-items: center;
 }
 
+img {
+    display: block;
+}
+
+.center-content a::after {
+    content: "My First Project";
+    background-color: black;
+    
+}
+
+.future-project {
+    background-color: skyblue;
+    border: 3px solid silver;
+    width: 49%;
+    display: inline-block;
+    height: 50px;
+}
