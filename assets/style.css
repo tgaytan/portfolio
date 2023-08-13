@@ -1,0 +1,36 @@
+header {
+    background-image: linear-gradient(to bottom right, blue, black);
+    height: auto;
+}
+
+header h1 {
+    font-family: fantasy;
+    font-size: 200%;
+    margin-left: 25px;
+    background-color: silver;
+    width: 25%;
+    padding-top: 25px;
+    padding-left: 25px;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+    position: fixed;
+    right: 100px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    justify-content: right;
+}
+
+header li {
+    margin: 0 10px;
+}
