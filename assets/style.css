@@ -16,9 +16,12 @@ header h1 {
 }
 
 header nav {
-    display: inline-block;
-    position: fixed;
-    right: 100px;
+    /* display: inline-block; */
+    position: relative;
+    float: right; 
+    /* left: 10px; */
+    /* right: 0px; */
+    /* top: 10px; */
 }
 
 header a {
