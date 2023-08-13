@@ -1,17 +1,20 @@
+body {
+    background-image: url(./images/TRINIDAD.JPG);
+}
+
 header {
-    background-image: linear-gradient(to bottom right, blue, black);
+    /* background-image: linear-gradient(to bottom right, blue, black); */
     height: auto;
-    border-bottom: 15px solid black;
+    /* border-bottom: 15px solid black; */
 }
 
 header h1 {
     font-family: fantasy;
     font-size: 200%;
     margin-left: 25px;
-    background-color: silver;
+    background-color: white;
     padding-top: 25px;
     padding-left: 25px;
-    border: 1px solid white;
     display: inline-block;
 }
 
@@ -30,7 +33,7 @@ a, .contact-me ul {
 }
 
 main {
-    background-image: linear-gradient(to bottom left, black, blue);
+    /* background-image: linear-gradient(to bottom left, black, blue); */
 }
 
 section {
