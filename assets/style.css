@@ -111,8 +111,10 @@ img {
     content: "My First Project";
     background-color: white;
     color: black;
-    display: absolute;
-    bottom: 100px;
+    position: absolute;
+    bottom: 30px;
+    height: 30px;
+    padding-top: 15px;
 }
 
 .future-project {
