@@ -73,10 +73,9 @@ img {
     display: block;
 }
 
-.center-content a::after {
+.center-content .first-project::after {
     content: "My First Project";
     background-color: black;
-    
 }
 
 .future-project {
