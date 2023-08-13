@@ -117,11 +117,32 @@ img {
     padding-top: 15px;
 }
 
+.first-project:hover {
+    border: 3px solid black;
+}
+
 .future-project {
     background-color: white;
     color: black;
-    border: 3px solid silver;
+    border: 3px solid black;
     width: 49%;
     display: inline-block;
     height: 200px;
+}
+
+.future-project:hover {
+    background-color: black;
+    color:white;
+    border: 3px solid white;
+}
+
+@media screen and (max-width: 992px) {
+    h2 {
+        color: blue;
+    }
+    
+    main span {
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+    }
 }
