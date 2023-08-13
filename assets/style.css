@@ -8,20 +8,10 @@ header h1 {
     font-size: 200%;
     margin-left: 25px;
     background-color: silver;
-    width: 25%;
     padding-top: 25px;
     padding-left: 25px;
     border: 1px solid white;
     display: inline-block;
-}
-
-header nav {
-    /* display: inline-block; */
-    position: relative;
-    float: right; 
-    /* left: 10px; */
-    /* right: 0px; */
-    /* top: 10px; */
 }
 
 header a {
@@ -32,8 +22,20 @@ header a {
 header ul {
     display: flex;
     justify-content: right;
+    padding: 5px;
 }
 
 header li {
     margin: 0 10px;
+}
+
+section {
+    display: flex;
+    
+}
+
+section h2 {
+    font-size: 300%;
+    display: inline-block;
+    border-right: 5px solid black;
 }
