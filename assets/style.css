@@ -42,6 +42,18 @@ nav a {
     color: white;
 }
 
+/* subheading */
+
+.subheading {
+    position: relative;
+}
+
+.subheading img {
+    position: absolute;
+    left: 287px;
+    bottom: 24px;
+}
+
 /* main section */
 
 main {
@@ -107,7 +119,7 @@ img {
     height: 450px;
 }
 
-.center-content .first-project::after {
+.first-project::after {
     content: "My First Project";
     background-color: white;
     color: black;
@@ -137,12 +149,37 @@ img {
 }
 
 @media screen and (max-width: 992px) {
-    h2 {
-        color: blue;
+    header {
+        flex-direction: column;
     }
-    
+
+    h2 {
+        text-align: center;
+    }
+
+    .subheading img {
+        display: none;
+    }
+
     main span {
         writing-mode: tb-rl;
         transform: rotate(-180deg);
+    }
+
+    .work img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .center-content a {
+        height: 300px;
+    }
+
+    .future-project {
+        height: 100px;
+    }
+
+    .contact-me ul {
+        flex-direction: column;
     }
 }
