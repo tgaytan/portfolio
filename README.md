@@ -20,6 +20,10 @@ To rotate the subheadings on the left side of the webpage, I used code from the 
 
 https://stackoverflow.com/questions/40205702/how-to-write-vertical-text-from-bottom-to-top-without-using-transform-rotate
 
+The Mii avatar was taken from my personal account with Nintendo.  I created the Mii when I first created my Nintendo account.
+
+The background image was a photo that I took myself when I visited the city of Trinidad, Coloardo.  It is a picture of the sidewalk.
+
 ## License
 
 N/A
