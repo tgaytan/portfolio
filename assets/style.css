@@ -183,3 +183,10 @@ img {
         flex-direction: column;
     }
 }
+
+/* Small smartphones - image placeholders change color */
+/* @media screen and (max-width: 576px) {
+  .sample-img {
+    background-color: #8ac4ff;
+  }
+} */
